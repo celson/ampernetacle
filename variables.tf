@@ -3,6 +3,11 @@ variable "name" {
   default = "kubernetes-on-arm-with-oracle"
 }
 
+variable "compartment" {
+  type    = string
+  default = ""
+}
+
 /*
 Available flex shapes:
 "VM.Optimized3.Flex"  # Intel Ice Lake

@@ -1,4 +1,5 @@
 resource "oci_identity_compartment" "_" {
+  compartment_id = var.compartment
   name          = var.name
   description   = var.name
   enable_delete = true
